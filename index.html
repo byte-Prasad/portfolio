@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- custom Javascript -->
+  <script src="javascript/main.js"></script>
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/7715d5600c.js" crossorigin="anonymous"></script>
+  <title>Home | Prasad Junghare</title>
+</head>
+
+<body>
+  <!-- Title section -->
+  <div class="hire-section" id="hire">
+    <h1 class="title">
+      <a href="" class="typewrite" data-period="2000"
+        data-type='[ "Hi, Im Prasad.", "I am developer.", "I Love Design.", "I Love to Develop." ]'>
+        <span class="wrap"></span>
+      </a>
+    </h1>
+
+    <div class="title-info">
+      <p>I design and develop software and website</p>
+    </div>
+    <div class="collab-link">
+      <button class="button" onclick="location.href='/docs/Resume.pdf', target='_blank';" role="button">Resume</button>
+
+      <!-- <button class="button-34" onclick="location.href='html/hireme.html', target='_blank';" role="button">Hire
+        me</button> -->
+
+      <!-- Button to open the modal login form -->
+      <button class="button-34" onclick="document.getElementById('id01').style.display='block'">Hire Me</button>
+
+      <!-- The Modal -->
+      <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+          title="Close Modal">&times;</span>
+
+        <!-- Modal Content -->
+        <form class="modal-content animate" action="/action_page.php">
+          <!-- <div class="imgcontainer">
+            <img src="img_avatar2.png" alt="Avatar" class="avatar">
+          </div> -->
+
+          <div class="container-1">
+            <!-- <label for="uname"><b>Username</b></label> -->
+
+            <input type="text" class="form-input" placeholder="Enter name" name="uname" required>
+
+            <!-- <label for="psw"><b>Password</b></label> -->
+            <input type="email" class="form-input" placeholder="Enter email" name="psw" required>
+
+            <!-- <label for="num"><b>Password</b></label> -->
+            <input type="number" class="form-input" placeholder="Enter number" name="num" required>
+
+            <button class="button-34" type="submit">Hire me</button>
+          </div>
+
+          <div class="container-2" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'"
+              class="cancelbtn button">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="divider">
+      <hr>
+    </div>
+  </div>
+
+  <!-- About section -->
+  <div id="contact" class="box about-info">
+    <h3 class="about-title">hello,</h3>
+    <p class="about-para">Thank you so much for getting here! I’m Prasad shridhar junghare, Computer Science engineer
+      and specialization in area of UI / UX designer
+      <br> . I’d really love to get in touch with you
+      to hear your feedback or just say hello! 😃
+    </p>
+
+    <div class="reach-icons icons">
+      <a href="https://instagram.com/ig____prasad?utm_medium=copy_link" target="_blank"><i
+          class="fab fa-2xl fa-bounce fa-instagram"></i></a>
+      <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"> <i
+          class="far fa-2xl fa-bounce fa-envelope"></i></i></a>
+      <a href="https://api.whatsapp.com/send/?phone=%2B919004289600&text&app_absent=0" target="_blank"> <i
+          class="fab fa-2xl fa-bounce fa-whatsapp"></i></i></a>
+
+    </div>
+  </div>
+  <div class="divider">
+    <hr>
+  </div>
+
+  <!-- work  -->
+  <div id="work" class="work">
+    <h3 class="about-title">See my work</h3>
+    <p class="about-para">See about my work and projects in different fields like C++, Java, HTML, CSS , Javascript,
+      etc. <br>
+      On platform like "GitHub", "HackerRank", "CodePen".
+    </p>
+    <div class="reach-icons icons">
+      <a href="https://github.com/sjprasad-bit" target="_blank"><i class="fab fa-2xl fa-bounce fa-github"></i></a>
+      <a href="https://www.hackerrank.com/junghareprasad6" target="_blank"> <i
+          class="fab fa-2xl fa-bounce fa-hackerrank"></i></i></a>
+      <a href="https://codepen.io/prasad2" target="_blank"> <i class="fab fa-2xl fa-bounce fa-codepen"></i></i></a>
+
+    </div>
+  </div>
+
+  <div class="divider">
+    <hr>
+  </div>
+
+  <!-- Internship and Course  -->
+  <div class="internship course">
+    <h3 class="about-title">Internship and Course</h3>
+    <p class="about-para">See about my Internship and certificate course below
+    </p>
+  </div>
+
+  <div class="flex-container">
+
+    <div class="flex-child magenta">
+      <h3>Intern at <a href="https://www.bithexa.com/" target="_blank">Bithexa Technologies
+          pune</a></h3>
+
+      <p>Prasad is very hard working. He is Always ready to learn new things.
+        Quick learner
+        Enthusiastic .
+        <br>--"Pradip Yadav"(in charge).
+      </p>
+
+      <p>
+
+        Create a backup for <a href="https://www.amalgambiotech.com/" target="_blank">amalgambiotech</a> form scratch
+      </p>
+    </div>
+
+    <div class="flex-child green">
+      <img src="/img/Home - Amalgam Biotech.png" alt="" class="site-shot">
+    </div>
+
+  </div>
+  <div class="divider">
+    <hr>
+  </div>
+
+
+</body>
+
+</html>
